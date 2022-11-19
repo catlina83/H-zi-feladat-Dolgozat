@@ -1,0 +1,51 @@
+html {
+    background-color: #bac5dd;
+}
+
+#container{
+    max-width: 1000px;
+    width: 95%;
+    margin:0 auto;
+}
+
+#container #header h1{
+    background-image: url('img/picture1.jpg');
+    background-size: cover;
+    color:white;
+    font-size: 40px;
+    padding: 220px 100px 150px 300px;
+}
+
+
+#nav{
+    background-color: #5473b4;
+}  
+
+#nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+#nav ul{
+    text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.jobb{
+    float:right;
+    padding: 0 0 0 10px;
+}
+.bal{
+    float:left;
+    padding:0 10px 0 0;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;    
+}
